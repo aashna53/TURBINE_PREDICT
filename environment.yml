@@ -1,0 +1,18 @@
+name: res_env
+channels:
+  - defaults
+dependencies:
+  - bottleneck
+  - ipykernel
+  - numpy
+  - seaborn
+  - dask
+  - netcdf4
+  - pandas
+  - scikit-learn
+  - python=3.11
+  - xarray
+  - pip
+  - pip:
+    - xgboost==0.90
+    - feature_engine
